@@ -10,4 +10,4 @@ logs/
 *.pth
 venv/
 pretrain/rmvpe.pt
-
+singers/*/

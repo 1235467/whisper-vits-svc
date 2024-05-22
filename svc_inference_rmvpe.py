@@ -150,8 +150,8 @@ def main(args):
     if (args.pit == None):
         args.pit = "svc_tmp.pit.csv"
         print(
-            f"Auto run : ./venv/bin/python pitch/inference.py -w {args.wave} -p {args.pit}")
-        os.system(f"./venv/bin/python pitch/inference.py -w {args.wave} -p {args.pit}")
+            f"Auto run : ./venv/bin/python pitch-rmvpe/inference.py -w {args.wave} -p {args.pit}")
+        os.system(f"./venv/bin/python pitch-rmvpe/inference.py -w {args.wave} -p {args.pit}")
 
     if args.debug:
         logging.basicConfig(level=logging.DEBUG)
