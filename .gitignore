@@ -8,3 +8,6 @@ chkpt/
 dataset_raw*/
 logs/
 *.pth
+venv/
+pretrain/rmvpe.pt
+
