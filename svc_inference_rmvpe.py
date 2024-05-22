@@ -136,19 +136,19 @@ def svc_infer(model, retrieval: IRetrieval, spk, pit, ppg, vec, hp, device):
 
 def main(args):
     if (args.ppg == None):
-        args.ppg = "svc_tmp.ppg.npy"
+        args.ppg = "tmp/svc_tmp.ppg.npy"
         print(
             f"Auto run : ./venv/bin/python whisper/inference.py -w {args.wave} -p {args.ppg}")
         os.system(f"venv/bin/python whisper/inference.py -w {args.wave} -p {args.ppg}")
 
     if (args.vec == None):
-        args.vec = "svc_tmp.vec.npy"
+        args.vec = "tmp/svc_tmp.vec.npy"
         print(
             f"Auto run : ./venv/bin/python hubert/inference.py -w {args.wave} -v {args.vec}")
         os.system(f"./venv/bin/python hubert/inference.py -w {args.wave} -v {args.vec}")
 
     if (args.pit == None):
-        args.pit = "svc_tmp.pit.csv"
+        args.pit = "tmp/svc_tmp.pit.csv"
         print(
             f"Auto run : ./venv/bin/python pitch-rmvpe/inference.py -w {args.wave} -p {args.pit}")
         os.system(f"./venv/bin/python pitch-rmvpe/inference.py -w {args.wave} -p {args.pit}")
@@ -205,11 +205,11 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', type=str, required=True,
+    parser.add_argument('-c', '--config', dest="config", type=str, required=True,
                         help="yaml file for config.")
-    parser.add_argument('-m', type=str, required=True,
+    parser.add_argument('-m', '--model', dest="model", type=str, required=True,
                         help="path of model for evaluation")
-    parser.add_argument('-w', type=str, required=True,
+    parser.add_argument('-w', '--wave', dest="wave", type=str, required=True,
                         help="Path of raw audio.")
     parser.add_argument('--spk', type=str, required=True,
                         help="Path of speaker.")

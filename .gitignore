@@ -1,3 +1,10 @@
+__pycache__/
+#hubert/__pycache__/
+#crepe/__pycache__/
+#whisper/__pycache__/
+#vits/__pycache__/
+*/__pycache__/
+*/*/__pycache__/
 whisper_pretrain/large-v2.pt
 vits_pretrain/sovits5.0.pretrain.pth
 hubert_pretrain/hubert-soft-0d54a1f4.pt
@@ -10,4 +17,6 @@ logs/
 *.pth
 venv/
 pretrain/rmvpe.pt
-singers/*/
+singers/*/*
+tmp/*
+svc_out*
