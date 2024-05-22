@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=$(nix eval --raw nixpkgs#addOpenGLRunpath.driverLink)/lib:$(nix eval --raw nixpkgs#stdenv.cc.cc.lib)/lib venv/bin/tensorboard --logdir logs/

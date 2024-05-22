@@ -1,0 +1,10 @@
+whisper_pretrain/large-v2.pt
+vits_pretrain/sovits5.0.pretrain.pth
+hubert_pretrain/hubert-soft-0d54a1f4.pt
+crepe/assets/full.pth
+speaker_pretrain/best_model.pth.tar
+data_svc/
+chkpt/
+dataset_raw*/
+logs/
+*.pth
