@@ -20,3 +20,4 @@ pretrain/rmvpe.pt
 singers/*/*
 tmp/*
 svc_out*
+models/*

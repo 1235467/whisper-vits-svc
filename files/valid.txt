@@ -1,0 +1,10 @@
+./data_svc/waves-32k/xiao_en/35.wav|./data_svc/specs/xiao_en/35.pt|./data_svc/pitch/xiao_en/35.pit.npy|./data_svc/hubert/xiao_en/35.vec.npy|./data_svc/whisper/xiao_en/35.ppg.npy|./data_svc/speaker/xiao_en/35.spk.npy
+./data_svc/waves-32k/言/123.wav|./data_svc/specs/言/123.pt|./data_svc/pitch/言/123.pit.npy|./data_svc/hubert/言/123.vec.npy|./data_svc/whisper/言/123.ppg.npy|./data_svc/speaker/言/123.spk.npy
+./data_svc/waves-32k/言/17.wav|./data_svc/specs/言/17.pt|./data_svc/pitch/言/17.pit.npy|./data_svc/hubert/言/17.vec.npy|./data_svc/whisper/言/17.ppg.npy|./data_svc/speaker/言/17.spk.npy
+./data_svc/waves-32k/言/3.wav|./data_svc/specs/言/3.pt|./data_svc/pitch/言/3.pit.npy|./data_svc/hubert/言/3.vec.npy|./data_svc/whisper/言/3.ppg.npy|./data_svc/speaker/言/3.spk.npy
+./data_svc/waves-32k/言/40.wav|./data_svc/specs/言/40.pt|./data_svc/pitch/言/40.pit.npy|./data_svc/hubert/言/40.vec.npy|./data_svc/whisper/言/40.ppg.npy|./data_svc/speaker/言/40.spk.npy
+./data_svc/waves-32k/言/69.wav|./data_svc/specs/言/69.pt|./data_svc/pitch/言/69.pit.npy|./data_svc/hubert/言/69.vec.npy|./data_svc/whisper/言/69.ppg.npy|./data_svc/speaker/言/69.spk.npy
+./data_svc/waves-32k/言AI/131.wav|./data_svc/specs/言AI/131.pt|./data_svc/pitch/言AI/131.pit.npy|./data_svc/hubert/言AI/131.vec.npy|./data_svc/whisper/言AI/131.ppg.npy|./data_svc/speaker/言AI/131.spk.npy
+./data_svc/waves-32k/言AI/177.wav|./data_svc/specs/言AI/177.pt|./data_svc/pitch/言AI/177.pit.npy|./data_svc/hubert/言AI/177.vec.npy|./data_svc/whisper/言AI/177.ppg.npy|./data_svc/speaker/言AI/177.spk.npy
+./data_svc/waves-32k/言AI/234.wav|./data_svc/specs/言AI/234.pt|./data_svc/pitch/言AI/234.pit.npy|./data_svc/hubert/言AI/234.vec.npy|./data_svc/whisper/言AI/234.ppg.npy|./data_svc/speaker/言AI/234.spk.npy
+./data_svc/waves-32k/言AI/41.wav|./data_svc/specs/言AI/41.pt|./data_svc/pitch/言AI/41.pit.npy|./data_svc/hubert/言AI/41.vec.npy|./data_svc/whisper/言AI/41.ppg.npy|./data_svc/speaker/言AI/41.spk.npy

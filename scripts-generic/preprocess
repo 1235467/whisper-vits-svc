@@ -1,1 +1,1 @@
-venv/bin/python svc_preprocessing.py -t 2
+python svc_preprocessing.py -t 2

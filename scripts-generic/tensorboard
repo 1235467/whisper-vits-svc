@@ -1,1 +1,1 @@
-venv/bin/tensorboard --logdir logs/
+tensorboard --logdir logs/
